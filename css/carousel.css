@@ -160,6 +160,11 @@ body {
   .feature-text-1 {
     bottom: 80px;
   }
+  @media (max-width: 40rem) {
+    .feature-text-1 {
+      bottom: 0;
+    }
+  }
   .feature-logo {
     text-align: center;
   }
