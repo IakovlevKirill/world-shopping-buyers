@@ -100,7 +100,7 @@ body {
       
     }
   }
-  @media (max-width: 300px) {
+  @media (max-width: 30rem) {
     .featurette-heading {
       text-align: center;
       
