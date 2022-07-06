@@ -125,7 +125,7 @@ body {
     text-decoration: underline;
   }
   .logo-icon {
-    height: 10%;
+    height: 15%;
     width: 17%;
   }
   .slider-header-1{
@@ -152,23 +152,12 @@ body {
   .feature-logo {
     text-align: center;
   }
-  .iherb {
-    margin-top: 40px !important;
-  }
-  .shein {
-    margin-top: 40px !important;
-    margin-left: 70px !important;
-    
-  }
-  .asos {
-    margin-top: 30px;
-  }
-  .ebay {
-    margin-top: 40px;
-    margin-left: 70px;
-  }
   .underlogo-text {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 70px;
+  }
+  .logo {
+    margin-top: 60px;
+    
   }
