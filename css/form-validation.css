@@ -23,4 +23,6 @@
   .colortext {
     color: red;
   }
-  
+  .links-on-pages {
+    height: 120px !important;
+  }
