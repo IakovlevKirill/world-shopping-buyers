@@ -108,7 +108,7 @@ body {
   }
   @media (max-width: 30rem) {
     .feature-lead{
-      margin-top: 30px;
+      margin-top: 50px;
     }
   }
   @media (min-width: 62em) {
