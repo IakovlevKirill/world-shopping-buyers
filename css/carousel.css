@@ -94,13 +94,13 @@ body {
       line-height: 1.4;
   }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 300px) {
     .feature-text-1 {
       margin-top: 40px !important;
       
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 300px) {
     .featurette-heading {
       text-align: center;
       
@@ -160,7 +160,7 @@ body {
   .feature-text-1 {
     bottom: 80px;
   }
-  @media (max-width: 40rem) {
+  @media (max-width: 30rem) {
     .feature-text-1 {
       bottom: 0;
     }
