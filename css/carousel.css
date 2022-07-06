@@ -204,3 +204,11 @@ body {
   .colortext-mail {
     color: #585757;
   }
+  @media (max-width: 1201px) {
+    .delivery-man {
+      display: none;
+    }
+    .delivery-text {
+      justify-content: center !important;
+    }
+  }
