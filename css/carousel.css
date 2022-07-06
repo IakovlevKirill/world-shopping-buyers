@@ -97,6 +97,13 @@ body {
   @media (max-width: 400px) {
     .feature-text-1 {
       margin-top: 40px !important;
+      
+    }
+  }
+  @media (max-width: 400px) {
+    .featurette-heading {
+      text-align: center;
+      
     }
   }
   @media (min-width: 62em) {
