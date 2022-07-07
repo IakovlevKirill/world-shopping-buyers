@@ -181,3 +181,9 @@ footer {
 .fake-header {
     margin-top: 50px;
 }
+@media (max-width: 50rem) {
+  .logo-icon {
+    width: 120px !important;
+    height: 40px !important;
+  }
+}  
