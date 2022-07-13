@@ -2,5 +2,8 @@
     margin-top: 80px !important;
 }
 .quest-ans-header {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+}
+.quest-ans-section-header {
+    margin-bottom: 50px;
 }
