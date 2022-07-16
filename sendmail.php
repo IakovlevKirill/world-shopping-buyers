@@ -14,7 +14,7 @@
     $mail->setFform('worldshoppingbuyers@gmail.com');
     //Адресат
     $mail->addAddress('worldshoppingbuyers@gmail.com');
-    //Тема письма
+    //Тема письма   
     $mail->Subject = "Заявка";
 
 
