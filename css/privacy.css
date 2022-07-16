@@ -1,5 +1,5 @@
 .card {
-    background-color: rgb(232, 232, 233) !important;
+    background-color: rgb(238, 238, 241) !important;
     height: 30%;
     
     
@@ -9,12 +9,12 @@
     text-align: center;
     font-weight: 400 !important;
     font-size: 47px;
+    padding-bottom: 20px !important;
     
 }
 .card-text {
     color: rgb(56, 51, 51);
     font-size: 20px;
     letter-spacing: 0.5px;
-    text-indent: 20px;
     line-height: 40px;
 }
