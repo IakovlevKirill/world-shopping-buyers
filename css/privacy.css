@@ -1,0 +1,23 @@
+.placeholder-glow {
+    height: 400px;
+}
+.card {
+    background-color: rgb(232, 232, 233) !important;
+    height: 400px;
+    
+    
+}
+.card-title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 400 !important;
+    font-size: 47px;
+    
+}
+.card-text {
+    color: rgb(56, 51, 51);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-indent: 20px;
+    line-height: 40px;
+}
