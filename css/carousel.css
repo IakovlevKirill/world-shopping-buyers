@@ -212,3 +212,7 @@ body {
       justify-content: center !important;
     }
   }
+  .btn-group {
+    left: 70%;
+    
+  }
