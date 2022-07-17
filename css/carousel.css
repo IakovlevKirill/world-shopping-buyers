@@ -148,6 +148,9 @@ body {
     height: 15%;
     width: 17%;
   }
+  .logo-center {
+    margin-bottom: 30px;
+  }
   .slider-header-1{
    font-size: 2.8rem !important;
   }
@@ -281,4 +284,16 @@ body {
     .btn-group {
       left: 120% !important;
     }
+  }
+  @media (max-width: 1000px) {
+    .man {
+      display: none;
+    }
+    .feature-text-1 {
+      margin-top: 40px;
+      text-align: center;
+    }
+  }
+  .process-title {
+    padding-bottom: 20px;
   }
