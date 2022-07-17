@@ -33,19 +33,31 @@
     <!-- Custom styles for this template -->
     <link href="css/sitelist.css" rel="stylesheet">
     <link href="css/support.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
   </head>
   <body>
     
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <img class="logo-icon"  src="img/mainlogo.png">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="">
+      <img class="logo-icon "  src="img/mainlogo.png">
+      
+      <!-- Кнопка выпадающего списка влево по умолчанию -->
+      <div class="btn-group dropstart">
+        <button type="button" class="btn menu" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="checkout.html">Сделать заказ</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="privacy.html">Конфиденциальность</a></li>
+            <li><a class="dropdown-item" href="sitelist.html">Список магазинов</a></li>
+            <li><a class="dropdown-item" href="index.html">Главная</a></li>
+          </ul>
+      </div>
+     
       <div class="collapse navbar-collapse" id="navbarCollapse">
-
-
+      
       </div>
     </div>
   </nav>
@@ -329,7 +341,7 @@
 
     </div><!-- /.col-lg-12 -->
     <div class="col-lg-4">
-      <img class="support_photo" src="img/support2.png" width="140px" height="180px">  
+      <img class="support_photo" src="img/поддержка.png" width="140px" height="200px">  
 
       <h2 class="dollar-header">Служба поддержки</h2>
       <span class="text-muted"></span>
