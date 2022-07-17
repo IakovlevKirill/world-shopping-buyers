@@ -293,6 +293,9 @@ body {
       margin-top: 40px;
       text-align: center;
     }
+    .featurette-heading-delivery {
+      text-align: center;
+    }
   }
   .process-title {
     padding-bottom: 20px;
