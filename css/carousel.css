@@ -213,6 +213,5 @@ body {
     }
   }
   .btn-group {
-    left: 70%;
-    
+    float: right;
   }
