@@ -213,5 +213,7 @@ body {
     }
   }
   .btn-group {
-    float: right;
+    left: 77%;
+    border: 2px solid rgb(162, 160, 160);
+    border-radius: 15%;
   }
