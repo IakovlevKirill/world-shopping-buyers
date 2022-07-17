@@ -39,29 +39,27 @@
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="">
       <img class="logo-icon"  src="img/mainlogo.png">
-
       
-    <div class="btn-group">
-      <button type="button" class="btn" data-toggle="dropdown" >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#section-process">Описание работы</a></li>
-        <li><a class="dropdown-item" href="#section-res">Ресурсы для заказа</a></li>
-        <li><a class="dropdown-item" href="#section-delivery-time">Время посылки</a></li>
-        <li><a class="dropdown-item" href="#section-about">О нас</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="checkout.html">Сделать заказ</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="privacy.html">Конфиденциальность</a></li>
-        <li><a class="dropdown-item" href="support.html">Помощь</a></li>
-        <!--<li><a class="dropdown-item" href="#">Условия</a></li>-->
-      </ul>
-    </div>
+      <!-- Кнопка выпадающего списка влево по умолчанию -->
+      <div class="btn-group dropstart">
+        <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#section-process">Описание работы</a></li>
+            <li><a class="dropdown-item" href="#section-res">Ресурсы для заказа</a></li>
+            <li><a class="dropdown-item" href="#section-delivery-time">Время посылки</a></li>
+            <li><a class="dropdown-item" href="#section-about">О нас</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="checkout.html">Сделать заказ</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="privacy.html">Конфиденциальность</a></li>
+            <li><a class="dropdown-item" href="support.html">Помощь</a></li>
+          </ul>
+      </div>
      
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-
-
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+      
       </div>
     </div>
   </nav>
@@ -346,6 +344,12 @@
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+  
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
   </body>
 </html>
